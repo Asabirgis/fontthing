@@ -61,7 +61,7 @@ function App() {
     <div className="container">
       {page === 1 && (
         <div className="card">
-          <h1>Welcome!</h1>
+          <h1>Welcome to Asa's Dyslexia Tool!</h1>
           <p>This tool helps you create a reading view that works better for your eyes.</p>
           <button onClick={() => setPage(2)}>Start</button>
         </div>
